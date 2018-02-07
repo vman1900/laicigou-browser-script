@@ -10,7 +10,7 @@ script.src = 'https://cdn.rawgit.com/adriancooney/console.image/master/console.i
 document.head.appendChild(script)
 */
 
-script = document.createElement('script');
+const script = document.createElement('script');
 script.type = 'text/javascript';
 script.src = 'https://unpkg.com/axios/dist/axios.min.js';
 document.head.appendChild(script);
